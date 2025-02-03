@@ -1,0 +1,1 @@
+This project is a template for a starter API for faster development, the API is connected to the database with asynchronous execution.
