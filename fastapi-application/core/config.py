@@ -19,7 +19,7 @@ class DatabaseConfig(BaseModel):
     pool_size: int = 50
     max_overflow: int = 10
 
-class Settings(RunConfig):
+class Settings(BaseSettings):
     run: RunConfig = RunConfig()
     api: ApiPrefix = ApiPrefix()
     db: DatabaseConfig = DatabaseConfig()
